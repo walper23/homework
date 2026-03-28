@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Главная</title>
+</head>
+<body>
+
+<h1>Меню</h1>
+
+<a href="{{ url_for('main_bp.contact') }}">Контакты</a><br>
+
+<a href="{{ url_for('schedule_bp.schedule') }}">Расписание</a><br>
+
+<a href="{{ url_for('schedule_bp.today') }}">Сегодня</a><br>
+
+<a href="{{ url_for('schedule_bp.tomorrow') }}">Завтра</a><br>
+
+<a href="{{ url_for('schedule_bp.week') }}">Неделя</a>
+
+</body>
+</html>
